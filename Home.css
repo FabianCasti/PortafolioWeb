@@ -1,0 +1,151 @@
+ .HomeContainer{
+   position: relative;
+   float: left;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 32px 10%;
+ }
+
+ .HomeAutor {
+    position: absolute;
+    z-index: 2;
+ }
+
+ .HomeNombreAutorBloq, .HomeNombreAutorCont{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ 
+ .NombredeAutor h1{
+    color: #fff;
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 96px;
+    font-weight: 600;
+ }
+
+ .HomeTextBloq{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;    
+ }
+
+ .HomeTextCont{
+    position: relative;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+ }
+
+ .HomeTextArt p{
+    color: #fff; 
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+ }
+ 
+ .HomeExpeTextBloq, .HomeExpeTextCont{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ .HomeExpeTextArt p{    
+    color: #fff;
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+ }
+ .HomeExpeTextArt p span{
+    color:#f0a700 ;     
+ }
+
+ .HomeImagenesBloq{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 48px;
+ }
+
+ .HomeImagenesCont, .HomeContactoImgt{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;    
+ }
+
+ .HomeContactoImgt img{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 64px;
+    margin-right: 32px;
+ }
+
+ .HomeMiFoto{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-left:50%;
+    box-sizing: border-box;
+    margin-top: 148px ;
+
+ }
+ .HomeMiFotoBloq, .HomeMiFotoCont,
+ .HomeMiFotoImg, .HomeMiFotoImg img{
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ 
+@media screen and (max-width: 401px) {
+    #HomeContainer {
+      padding: 16px 16px;
+    }
+    .HomeContainer{
+        padding: 32px 0%;
+    }
+    .NombredeAutor h1{
+        font-size: 40px;
+    }
+    .HomeAutor{
+        left: 4px;
+    }
+    .HomeTextArt p{
+        font-size: 20px;
+    }
+    .HomeExpeTextArt p{
+        font-size: 16px;
+    }
+    .HomeTextCont{
+        width: 70%;
+    }
+    .HomeContactoImgt img{
+        width: 32px;
+        margin-right: 16px;
+    }
+    .HomeImagenesBloq{
+        margin-top: 16px;
+    }
+    .HomeMiFoto{
+        width: 70%;
+        margin-left: 30%;
+        margin-top: 64px;
+    }
+    
+   
+}
+
+

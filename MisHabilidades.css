@@ -1,0 +1,83 @@
+#MisHabilidades {
+  background: url("./Portafolio2/Rectangle\ 33-1.svg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding: 34px 20%;
+}
+
+#MisHabilidades h1 {
+  color: #ffff;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.MishabilidadesBloq,
+.MishabilidadesCont {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.MishabilidadesName {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+.MishabilidadesName a {
+  color: #f1a600;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.MisHabilidadesText {
+  position: relative;
+  color: #ffff;
+  display: flex;
+  float: left;
+  box-sizing: border-box;
+  width: 70%;
+  min-height: 72px;
+}
+
+.MisHabilidadesText h3 {
+  font-weight: 500;
+  margin: auto 0rem;
+}
+
+@media screen and (max-width: 401px) {
+  #MisHabilidades {
+    padding: 16px 16px;
+  }
+
+  #MisHabilidades h1 {
+    text-align: center;
+  }
+
+  .MishabilidadesName a {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .MisHabilidadesText {
+    margin-left: 5%;
+    width: 65%;
+    font-size: 12px;
+    min-height: 48px;
+  }
+}
