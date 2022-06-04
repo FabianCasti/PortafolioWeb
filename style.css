@@ -5,18 +5,17 @@ html {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-color: #1f1d2c;
 }
 a {
   text-decoration: none;
-}
-.contenedor {
-  float: left;
-  width: 100%;
-  box-sizing: border-box;
 }
 .Categorias {
   color: #ffff;

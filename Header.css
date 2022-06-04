@@ -4,35 +4,39 @@
   background-repeat: no-repeat;
   position: relative;
   float: left;
+  display: block;
   width: 100%;
   box-sizing: border-box;
-  padding: 0% 24px;  
 }
 
 .Menu {
-  position: relative;
-  float: left;
+  position: fixed;
+  top: 0px;
+  left: 0px;;
+  background: #1f1d2c;
+  display: block;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 24px;
+  z-index: 32;
 }
 
 .Menu button {
+  position: relative;
   display: none;
   outline: none;
   border: none;
-  background: transparent;
   width: 24px;
   height: 24px;
-  margin: 12px 32px;
   float: right;
+  margin: 12px;
+  background: transparent;
+  cursor: pointer;
 }
 
 .Menu ul {
   list-style-type: none;
   display: flex;
   justify-content: end;
-  padding-top: 5px;
   width: 100%;
   position: relative;
   float: left;
@@ -44,7 +48,8 @@
   width: auto;
   margin: 16px;
   height: 24px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
   box-sizing: border-box;
   float: left;
   position: relative;
@@ -58,11 +63,28 @@
   .Menu button {
     display: block;
   }
-  .Menu{
-    margin-top: 0%;
-  }
 
   .Menu ul {
-    display: none;
+    display: block;
+    width: 50%;
+    margin-left: 50%;
+    height: 0px;
+    overflow: hidden;
+    transition: height 320ms 0ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .Menu ul.show {
+    height: 356px;
+  } 
+
+  .Menu ul li {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+  }
+
+  .Menu ul li a {
+    float: right;
   }
 }

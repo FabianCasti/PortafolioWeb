@@ -1,151 +1,174 @@
- .HomeContainer{
-   position: relative;
-   float: left;
-   width: 100%;
-   box-sizing: border-box;
-   padding: 32px 10%;
- }
-
- .HomeAutor {
-    position: absolute;
-    z-index: 2;
- }
-
- .HomeNombreAutorBloq, .HomeNombreAutorCont{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
- }
- 
- .NombredeAutor h1{
-    color: #fff;
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 96px;
-    font-weight: 600;
- }
-
- .HomeTextBloq{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;    
- }
-
- .HomeTextCont{
-    position: relative;
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
- }
-
- .HomeTextArt p{
-    color: #fff; 
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 32px;
- }
- 
- .HomeExpeTextBloq, .HomeExpeTextCont{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
- }
-
- .HomeExpeTextArt p{    
-    color: #fff;
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 32px;
- }
- .HomeExpeTextArt p span{
-    color:#f0a700 ;     
- }
-
- .HomeImagenesBloq{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 48px;
- }
-
- .HomeImagenesCont, .HomeContactoImgt{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;    
- }
-
- .HomeContactoImgt img{
-    position: relative;
-    float: left;
-    box-sizing: border-box;
-    width: 64px;
-    margin-right: 32px;
- }
-
- .HomeMiFoto{
-    position: relative;
-    float: left;
-    width: 50%;
-    margin-left:50%;
-    box-sizing: border-box;
-    margin-top: 148px ;
-
- }
- .HomeMiFotoBloq, .HomeMiFotoCont,
- .HomeMiFotoImg, .HomeMiFotoImg img{
-    position: relative;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
- }
- 
-@media screen and (max-width: 401px) {
-    #HomeContainer {
-      padding: 16px 16px;
-    }
-    .HomeContainer{
-        padding: 32px 0%;
-    }
-    .NombredeAutor h1{
-        font-size: 40px;
-    }
-    .HomeAutor{
-        left: 4px;
-    }
-    .HomeTextArt p{
-        font-size: 20px;
-    }
-    .HomeExpeTextArt p{
-        font-size: 16px;
-    }
-    .HomeTextCont{
-        width: 70%;
-    }
-    .HomeContactoImgt img{
-        width: 32px;
-        margin-right: 16px;
-    }
-    .HomeImagenesBloq{
-        margin-top: 16px;
-    }
-    .HomeMiFoto{
-        width: 70%;
-        margin-left: 30%;
-        margin-top: 64px;
-    }
-    
-   
+.HomeContainer {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 88px 7.5% 32px 7.5%;
 }
 
+.HomeAutor {
+  position: absolute;
+  z-index: 2;
+  width: 85%;
+}
 
+.HomeAutorNombre {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 96px;
+  line-height: 96px;
+  box-sizing: border-box;
+}
+
+.HomeAutorNombre h1 {
+  color: #fff;
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 96px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.HomeAutorDesc {
+  position: relative;
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.HomeAutorDesc p {
+  color: #fff;
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+
+.HomeAutorExp {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.HomeAutorExp p {
+  color: #fff;
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 28px;
+}
+
+.HomeAutorExp p span {
+  color: #f0a700;
+}
+
+.HomeAutorIcons {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 48px;
+}
+
+.HomeAutorIcons img {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  width: 64px;
+  margin-right: 32px;
+}
+
+.HomeFoto {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  box-sizing: border-box;
+  margin-top: 112px;
+}
+
+.HomeFoto img {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 360px) {
+  .HomeContainer {
+    padding: 64px 16px 16px 16px;
+  }
+  .HomeAutor {
+    width: calc(100% - 32px);
+  }
+  .HomeAutorNombre {
+     height: 28px;
+     line-height: 28px;
+  }
+  .HomeAutorNombre h1 {
+    font-size: 28px;
+  }
+  .HomeAutorDesc {
+    width: 90%;
+  }
+  .HomeAutorDesc p {
+    font-size: 16px;
+  }
+  .HomeAutorExp p {
+    font-size: 12px;
+  }
+  .HomeFoto {
+    margin-top: 36px;
+  }
+  .HomeAutorIcons {
+    margin-top: 16px;
+  }
+  .HomeAutorIcons img {
+    width: 24px;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 560px) {
+  .HomeContainer {
+    padding: 72px 24px 24px 24px;
+  }
+  .HomeAutor {
+    width: calc(100% - 48px);
+  }
+  .HomeAutorNombre {
+     height: 36px;
+     line-height: 36px;
+  }
+  .HomeAutorNombre h1 {
+    font-size: 36px;
+  }
+  .HomeAutorDesc p {
+    font-size: 20px;
+  }
+  .HomeAutorExp p {
+    font-size: 14px;
+  }
+  .HomeFoto {
+    width: 70%;
+    margin-left: 30%;
+    margin-top: 44px;
+  }
+  .HomeAutorIcons {
+    margin-top: 16px;
+  }
+  .HomeAutorIcons img {
+    width: 32px;
+    margin-right: 16px;
+  }
+}

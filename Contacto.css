@@ -86,7 +86,7 @@
   color: #bdbdbd;
 }
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 360px) {
   #Contacto {
     padding: 20px 16px;
   }
@@ -94,5 +94,26 @@
   .ContactoImg img {
     width: 50%;
     margin: 0% 25%;
+  }
+  
+  .ContactoName h5,
+  .ContactoName h6 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 560px) {
+  #Contacto {
+    padding: 28px 24px;
+  }
+
+  .ContactoImg img {
+    width: 50%;
+    margin: 0% 25%;
+  }
+
+  .ContactoName h5,
+  .ContactoName h6 {
+    font-size: 12px;
   }
 }
