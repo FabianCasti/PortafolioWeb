@@ -35,7 +35,7 @@
 .AcercaDeMiCont {
   position: relative;
   float: left;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -49,9 +49,9 @@
 .AcercaDeMiLogo img {
   position: relative;
   float: left;
-  width: 30%;
+  width: 20%;
   box-sizing: border-box;
-  margin: 0% 35%;
+  margin: 0% 40%;
 }
 
 .AcercaDeMiName {
